@@ -1,4 +1,6 @@
 //YOUR FIREBASE LINKS
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 var firebaseConfig = {
       apiKey: "AIzaSyDL_PwOY43WzimSBGWLMZWydnGtRGZ6hMY",
       authDomain: "kwitter-8d9a5.firebaseapp.com",
