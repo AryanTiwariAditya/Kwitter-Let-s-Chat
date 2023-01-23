@@ -1,4 +1,6 @@
 //ADD YOUR FIREBASE LINKS HERE
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 var firebaseConfig = {
       apiKey: "AIzaSyDL_PwOY43WzimSBGWLMZWydnGtRGZ6hMY",
       authDomain: "kwitter-8d9a5.firebaseapp.com",
@@ -7,6 +9,7 @@ var firebaseConfig = {
       storageBucket: "kwitter-8d9a5.appspot.com",
       messagingSenderId: "501172008020",
       appId: "1:501172008020:web:bbf1f47974a287c80ee9c1"
+      measurementId: "G-XQLKRC2PZP"
     };
     
     // Initialize Firebase
