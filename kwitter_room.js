@@ -6,12 +6,10 @@ var firebaseConfig = {
       storageBucket: "kwitter-8d9a5.appspot.com",
       messagingSenderId: "501172008020",
       appId: "1:501172008020:web:bbf1f47974a287c80ee9c1"
-      measurementId: "G-XQLKRC2PZP"
     };
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    firebase.getAnalytics(app);
     
     user_name = localStorage.getItem("user_name");
     document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
