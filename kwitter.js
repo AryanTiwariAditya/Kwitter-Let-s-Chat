@@ -13,6 +13,7 @@ var firebaseConfig = {
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    firebase.getAnalytics(app);
 
 function addUser()
 {
