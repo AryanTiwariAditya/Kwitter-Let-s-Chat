@@ -1,6 +1,3 @@
-//YOUR FIREBASE LINKS
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 var firebaseConfig = {
       apiKey: "AIzaSyDL_PwOY43WzimSBGWLMZWydnGtRGZ6hMY",
       authDomain: "kwitter-8d9a5.firebaseapp.com",
@@ -14,6 +11,7 @@ var firebaseConfig = {
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    firebase.getAnalytics(app);
 
       user_name = localStorage.getItem("user_name");
       room_name = localStorage.getItem("room_name");
