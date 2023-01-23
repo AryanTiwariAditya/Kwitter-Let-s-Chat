@@ -14,6 +14,8 @@ var firebaseConfig = {
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    firebase.getAnalytics(app);
+
       user_name = localStorage.getItem("user_name");
       room_name = localStorage.getItem("room_name");
 
